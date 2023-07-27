@@ -78,13 +78,13 @@ export const AccountPage = () => {
 
     return (
         <>
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-screen">
+          <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 h-screen">
             {!user.id ? (
                 <Login />
             ) : (
             <>
-              <h2 className="text-gray-700 font-bold text-4xl">
-                Welcome {user.firstName} {user.lastName} to your account page{' '}
+              <h2 className="text-gray-700 font-bold text-4xl py-5">
+                Settings
               </h2>
             <section
               className="divide-y divide-gray-200"
@@ -95,24 +95,33 @@ export const AccountPage = () => {
                 userEmail={user.email || ''}
                 updateFormData={updateFormData}
               />
-            <div className='mt-3 flex justify-between'>
-              <div className='flex'>
-                <label className="block text-sm font-medium text-gray-700 mr-3">File</label>
-                <input type="file" onChange={handleFileChange} name='file'/>
+            <div className='space-y-2 sm:space-y-2'>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5 sm:border-gray-200 py-5'>
+                <label className="block text-sm font-medium text-gray-700 mr-3">Attach File</label>
+                <div className="w-full">
+                  <input type="file" onChange={handleFileChange} name='file'/>
+                </div>
+
               </div>
-              <div className="flex">
-                <label className="block text-sm font-medium text-gray-700 mr-3">Download Past Files: </label>
+
+            </div>
+            <div className="space-y-2 sm:space-y-2">
+                <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5 sm:border-gray-200 py-5">
+                  <label className="block text-sm font-medium text-gray-700 mr-3">Download Past Files: </label>
+
                 <ul>
                 {
                   uploadedFiles.map((file: any) => (
                     <li key={file} className='underline text-teal-500' onClick={() => downloadStorageDocument(`${user.id}/${file}`, file)}>
-                      <p>{file}</p>
+                      <p className="text-sm">{file}</p>
                     </li>
                   ))
                 }
                 </ul>
+                </div>
+
+
               </div>
-            </div>
               <FormSaveButton
                 submittingForm={submittingForm}
                 formIsValid={!!isFormValid(validation)}

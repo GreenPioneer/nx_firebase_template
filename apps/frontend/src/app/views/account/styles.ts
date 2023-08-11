@@ -1,1 +1,1 @@
-export const greyBorderClassName = 'sm:border-t sm:border-gray-200';
+export const greyBorderClassName = 'sm:border-t sm:border-gray-200 py-5';

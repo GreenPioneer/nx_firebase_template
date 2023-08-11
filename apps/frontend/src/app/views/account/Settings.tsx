@@ -17,12 +17,8 @@ export const Settings: React.FC<IProps> = ({
   updateFormData,
 }) => {
   return (
-    <div>
       <div className="space-y-2 sm:space-y-2 py-2">
-        <h3 className="text-lg leading-6 font-medium text-gray-900">
-          Personal Settings
-        </h3>
-        <div className="space-y-2 sm:space-y-2">
+        <div>
           <TextInput
             name={yourAccountInputNames.firstName}
             id={yourAccountInputNames.firstName}
@@ -48,7 +44,7 @@ export const Settings: React.FC<IProps> = ({
             style={{ cursor: 'not-allowed' }}
           />
           <div
-            className={`${greyBorderClassName} sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:pt-5`}
+            className={`${greyBorderClassName} py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:py-5`}
           >
             <label className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
               Account Type
@@ -61,11 +57,11 @@ export const Settings: React.FC<IProps> = ({
                 { value: 'Reader/Author', name: 'Reader/Author' },
               ]}
               value={formData.userType}
+
               onChange={(e: any) => updateFormData({ userType: e.target.value })}
             />
           </div>
         </div>
       </div>
-    </div>
   );
 };

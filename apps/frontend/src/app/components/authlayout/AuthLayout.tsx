@@ -1,6 +1,8 @@
 // import Image from 'next/image'
 
-import backgroundImage from './background-auth.jpg'
+import background from './background-auth.jpg';
+
+console.log('background', background);
 
 export function AuthLayout({ children }: any) {
   return (
@@ -14,11 +16,11 @@ export function AuthLayout({ children }: any) {
         <div className="hidden sm:contents lg:relative lg:block lg:flex-1">
           <img
             className="absolute inset-0 h-full w-full object-cover"
-            src={backgroundImage}
+            src={background}
             alt="blue background"
           />
         </div>
       </div>
     </>
-  )
+  );
 }

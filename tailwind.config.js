@@ -91,6 +91,15 @@ module.exports = {
       gray: colors.gray,
       'blue-gray': colors.blueGray,
     },
+    extend: {
+      colors: {
+        blue1: "#1976D2"
+      },
+      fontFamily: {
+        psm: ["Product Sans Medium"],
+        sp: ["Sofia Pro"]
+      }
+    }
   },
 };
 

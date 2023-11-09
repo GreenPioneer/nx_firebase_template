@@ -78,7 +78,7 @@ export const AccountPage = () => {
 
     return (
         <>
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-screen">
+          <div className="px-1 sm:px-6 lg:px-8 h-screen">
             {!user.id ? (
                 <Login />
             ) : (

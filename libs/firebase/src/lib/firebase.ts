@@ -9,7 +9,7 @@ import * as functions from 'firebase-functions';
 // import { FirebaseFirestore } from '@firebase/firestore-types';
 
 export const settings = {
-  project_id: 'nxfirebasetemplate',
+  project_id: 'wol-planner-7e216',
 };
 
 if (functions.config().project && functions.config().project.id) {
@@ -23,6 +23,7 @@ console.log(`Initializing Firebase Admin ${settings.project_id}`);
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const serviceAccount = process.env.FIREBASE_ADMINSDK_KEY;
 const baseAppConfig = {
+  authDomain: `${settings.project_id}.firebaseapp.com`,
   projectId: settings.project_id,
   databaseURL: `https://${settings.project_id}-default-rtdb.firebaseio.com`,
   storageBucket: `${settings.project_id}.appspot.com`,

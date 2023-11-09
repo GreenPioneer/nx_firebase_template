@@ -1,0 +1,176 @@
+.googleLoginButtonText {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Product Sans Medium;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.googleLoginButtonImage {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.googleLoginButton {
+    display: inline-flex;
+    padding: 1px 104px 1px 1px;
+    align-items: center;
+    gap: 49px;
+    border-radius: 8px;
+    background: #1976D2;
+    height: 56px;
+    width: 345px;
+}
+.googleLoginButtonImageContainer {
+    display: flex;
+    width: 52px;
+    height: 52px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #FFF;
+}
+.loginButton {
+    display: flex;
+    width: 345px;
+    height: 56px;
+    padding: 16px 0px 17px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #000;
+}
+.loginButtonText {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Mobile Button Text */
+    font-family: Sofia Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.signupButtonText {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.signupButton {
+    justify-content: center;
+    align-items: center;
+}
+.forgotButtonText {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.forgotButton {
+    justify-content: center;
+    align-items: center;
+}
+.loginPassword {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.loginPasswordInput {
+    display: flex;
+    height: 40px;
+    padding: 6px 172px 6px 16px;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #6F6F6F;
+    background: #F6F6F6;
+}
+.loginEmail {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.loginEmailInput {
+    display: flex;
+    height: 40px;
+    padding: 6px 172px 6px 16px;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #6F6F6F;
+    background: #F6F6F6;
+}
+.loginLogo {
+    width: 196px;
+    height: 122px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginW {
+    color: #000;
+    font-family: FONTSPRING DEMO - Capitana Medium;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.loginListThreeFilled {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    fill: var(--Primary-Blue, #148CFB);
+}
+.loginL {
+    display: flex;
+    width: 23px;
+    height: 48px;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    color: #000;
+    font-family: FONTSPRING DEMO - Capitana Medium;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.loginVector {
+    width: 2px;
+    height: 56px;
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #000;
+}
+.loginCrystalBall {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.loginGroup103 {
+    width: 128px;
+    height: 39px;
+    flex-shrink: 0;
+}
+.loginLayout {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}

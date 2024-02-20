@@ -2,3 +2,12 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@import url(https://db.onlinewebfonts.com/c/a1f486ff14cc5c4f87a0e3825d152372?family=Sofia+Pro);
+@import url(https://db.onlinewebfonts.com/c/d5075ebf15c6a1d89e8ed3e20d1c4d7b?family=Product+Sans+Medium);
+
+html {
+    font-feature-settings: FEATURES;
+}
+input[type='text']:focus { box-shadow: none; }
+input[type='password']:focus { box-shadow: none; }

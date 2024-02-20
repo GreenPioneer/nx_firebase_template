@@ -4,3 +4,132 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.page {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 40px 137px 98px 66px 116px 66px 96px 106px;
+}
+
+.dashboard-root {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.dashboard-content {
+  padding-top: 5vh;
+  display: grid;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  grid-row: 3 / span 10;
+  grid-column: 1 / span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+}
+
+.hamburger-menu-section {
+  padding-top: 8vh;
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+  width: 80%;
+  align-items: center;
+}
+
+.profile-image {
+  width: 2rem;
+  border-radius: 0.75rem;
+}
+
+.greeting-text {
+  font-size: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.net-worth-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  gap: 6px;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.net-worth-value {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.net-worth-label {
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  justify-content: center;
+  text-align: center;
+}
+
+.buttons-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 75%;
+  align-items: center;
+  text-align: center;
+}
+
+.dashboard-button {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Sofia Pro', sans-serif;
+  color: white;
+  background-color: #148cfb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 3rem;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.dashboard-button:hover {
+  font-size: 1.5rem;
+}
+
+.first-time-user-text {
+  padding: 50px;
+  margin-top: 10vh;
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 2px;
+  padding: 0.5rem 1rem;
+  height: 2rem;
+  border-color: black;
+  border-radius: 20px;
+}
+
+.first-time-user-text:hover {
+  text-decoration: underline;
+}

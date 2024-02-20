@@ -1,0 +1,136 @@
+/* .page {
+  display: grid;
+  grid-template-rows: 40px 137px 98px 66px 116px 66px 96px 106px;
+}
+.burger {
+  display: flex;
+  align-items: left;
+}
+
+.bsmith {
+  display: flex;
+  align-items: center;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.networth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  padding: 17px 106px 16px 105px;
+}
+
+.profile_dash {
+  flex-shrink: 0;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+}
+
+.profile-dash-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.greeting-text {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: FONTSPRING DEMO - Capitana Medium;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.balance {
+  display: flex;
+  padding: 17px 106px 16px 105px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: var(--Primary-Blue, #148cfb);
+  border-radius: 100px;
+  background: var(--Primary-Blue, #148cfb);
+  width: 345px;
+}
+
+.cash-flow {
+  display: flex;
+  width: 345px;
+  padding: 17px 0px 16px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: var(--Primary-Blue, #148cfb);
+}
+
+.page-font {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Sofia Pro;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.numbers-font {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Sofia Pro;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.btn-font {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Sofia Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.userBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.image-103 {
+  display: flex;
+  justify-content: center;
+} */
+
+@media only screen and (min-width: 834px min-height: 1192px) {
+  /* Tablet */
+  #HomePageDashboardRoot {
+    color: green;
+    padding: 1000px;
+  }
+
+  #hello {
+    width: 179px;
+    height: 52px;
+    top: 104px;
+    left: 83px;
+  }
+}

@@ -1,10 +1,10 @@
 {
   "projects": {
-    "default": "nxfirebasetemplate"
+    "default": "wol-planner-7e216"
   },
   "targets": {},
   "etags": {
-    "nxfirebasetemplate": {
+    "wol-planner-7e216": {
       "extensionInstances": {}
     }
   }

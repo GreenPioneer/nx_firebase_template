@@ -1,0 +1,280 @@
+@font-face {
+    font-family: "Fontspring-DEMO-capitana-medium";
+    src: local("Fontspring-DEMO-capitana-medium"),
+        url("../../fonts/Fontspring-DEMO-capitana-medium.otf") format("opentype")
+}
+.googleLoginButtonText {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Product Sans Medium;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.googleLoginButtonImage {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.googleLoginButton {
+    display: inline-flex;
+    padding: 1px 104px 1px 1px;
+    align-items: center;
+    gap: 49px;
+    border-radius: 8px;
+    background: #1976D2;
+    height: 56px;
+    width: 345px;
+}
+.googleLoginButtonImageContainer {
+    display: flex;
+    width: 52px;
+    height: 52px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #FFF;
+}
+.googleLoginButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginButton {
+    display: flex;
+    width: 345px;
+    height: 56px;
+    padding: 16px 0px 17px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #000;
+}
+.loginButtonText {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Mobile Button Text */
+    font-family: Sofia Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.loginSignupButtonText {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.loginSignupButton {
+    justify-content: center;
+    align-items: top;
+}
+.forgotButtonText {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.forgotButton {
+    justify-content: center;
+    align-items: center;
+}
+.loginPasswordContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginPassword {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 4px;
+    width: 345px;
+}
+.loginPasswordInput {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 28px; 140% */
+    height: 28px;
+    border: none;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+}
+.loginPasswordInputContainer {
+    display: flex;
+    height: 40px;
+    padding: 6px 4px 4px 4px;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #6F6F6F;
+    background: #F6F6F6;
+    width: 345px;
+}
+.loginEmailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginEmail {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 4px;
+    width: 345px;
+}
+.loginEmailInput {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 28px; 140% */
+    height: 28px;
+    border: none;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+}
+.loginEmailInputContainer {
+    display: flex;
+    height: 40px;
+    padding: 6px 4px 4px 4px;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #6F6F6F;
+    background: #F6F6F6;
+    width: 345px;
+}
+.loginLogoContainer {
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    position: relative;
+}
+.loginLogo {
+    width: 196px;
+    height: 100px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7px;
+}
+.loginW {
+    color: #000;
+    font-family: Fontspring-DEMO-capitana-medium;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.loginListThreeFilled {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    fill: var(--Primary-Blue, #148CFB);
+}
+.loginL {
+    display: flex;
+    width: 23px;
+    height: 48px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Fontspring-DEMO-capitana-medium;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.loginVector {
+    width: 3px;
+    height: 70px;
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #000;
+}
+.loginCrystalBall {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.loginGroup103Container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.loginGroup103 {
+    width: 128px;
+    height: 39px;
+    flex-shrink: 0;
+}
+.loginLayout {
+    display: grid;
+    grid-template-rows: 40px 137px 98px 66px 116px 66px 96px 106px;
+}
+.signupForgot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0px;
+    gap: 22px;
+}
+.errorBox {
+    display: inline-flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #F00;
+    width: 248px;
+    height: 44px;
+}
+.errorText {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+}
+.errorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

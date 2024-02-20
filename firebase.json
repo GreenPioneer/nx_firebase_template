@@ -15,14 +15,14 @@
       "**/node_modules/**"
     ],
     "rewrites": [
-      {
-        "source": "/api/**",
-        "function": "apiv1"
-      },
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
+        {
+          "source": "/api/**",
+          "function": "apiv1"
+        },
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
     ]
   },
   "database": {

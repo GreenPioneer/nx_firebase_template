@@ -1,0 +1,333 @@
+.signupFirstNameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signupFirstName {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 4px;
+    width: 345px;
+}
+.signupFirstNameInput {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 28px; 140% */
+    height: 28px;
+    border: none;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+}
+.signupFirstNameInputContainer {
+    display: flex;
+    height: 40px;
+    padding: 6px 4px 4px 4px;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #6F6F6F;
+    background: #F6F6F6;
+    width: 345px;
+}
+.signupLastNameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signupLastName {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 4px;
+    width: 345px;
+}
+.signupLastNameInput {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 28px; 140% */
+    height: 28px;
+    border: none;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+}
+.signupLastNameInputContainer {
+    display: flex;
+    height: 40px;
+    padding: 6px 4px 4px 4px;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #6F6F6F;
+    background: #F6F6F6;
+    width: 345px;
+}
+.signupUsernameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signupUsername {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 4px;
+    width: 345px;
+}
+.signupUsernameInput {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 28px; 140% */
+    height: 28px;
+    border: none;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+}
+.signupUsernameInputContainer {
+    display: flex;
+    height: 40px;
+    padding: 6px 4px 4px 4px;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #6F6F6F;
+    background: #F6F6F6;
+    width: 345px;
+}
+.signupEmailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signupEmail {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 4px;
+    width: 345px;
+}
+.signupEmailInput {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 28px; 140% */
+    height: 28px;
+    border: none;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+}
+.signupEmailInputContainer {
+    display: flex;
+    height: 40px;
+    padding: 6px 4px 4px 4px;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #6F6F6F;
+    background: #F6F6F6;
+    width: 345px;
+}
+.signupPasswordContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signupPassword {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 4px;
+    width: 345px;
+}
+.signupPasswordInput {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 28px; 140% */
+    height: 28px;
+    border: none;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+}
+.signupPasswordInputContainer {
+    display: flex;
+    height: 40px;
+    padding: 6px 4px 4px 4px;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #6F6F6F;
+    background: #F6F6F6;
+    width: 345px;
+}
+.signupButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupButton {
+    display: flex;
+    width: 345px;
+    height: 56px;
+    padding: 16px 0px 17px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #000;
+}
+.signupButtonText {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Mobile Button Text */
+    font-family: Sofia Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.signupGroup103Container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.signupGroup103 {
+    width: 128px;
+    height: 39px;
+    flex-shrink: 0;
+}
+.signupLogoContainer {
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    position: relative;
+}
+.signupLogo {
+    width: 196px;
+    height: 100px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7px;
+}
+.signupW {
+    color: #000;
+    font-family: Fontspring-DEMO-capitana-medium;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.signupListThreeFilled {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    fill: var(--Primary-Blue, #148CFB);
+}
+.signupL {
+    display: flex;
+    width: 23px;
+    height: 48px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Fontspring-DEMO-capitana-medium;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.signupVector {
+    width: 3px;
+    height: 70px;
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #000;
+}
+.signupCrystalBall {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.signupLayout {
+    display: grid;
+    grid-template-rows: 40px 147px 98px 76px 100px 76px 96px 110px;
+}
+.signupIndicatesRequiredContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupIndicatesRequired {
+    color: #F00;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.signupEmailErrorContainer {
+
+}
+.signupEmailError {
+    color: var(--Primary-Red, #F00);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.signupPasswordErrorContainer {
+
+}
+.signupPasswordError {
+    color: #F00;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}

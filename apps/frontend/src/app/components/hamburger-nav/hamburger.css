@@ -1,0 +1,134 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -50%;
+  width: 50%;
+  height: 100vh;
+  background-color: #15171c;
+  transition: left 0.5s ease-in-out;
+}
+
+.sidebar.show {
+  left: 0;
+}
+
+.nav-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  transition: transform 1s ease;
+}
+
+.showSideBar {
+  transform: translateX(0);
+}
+
+.hideSideBar {
+  transform: translateX(-250px);
+}
+
+.opaque-container {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333333;
+  opacity: 0.5;
+}
+
+.fly-out-menu-root {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.ham-trademark-container {
+  padding-top: 25%;
+  padding-bottom: 15%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+  height: 10rem;
+}
+
+.ham-trademark-letter {
+  font-size: 1.5rem;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  bottom: 0px;
+}
+
+.ham-trademark-symbol {
+	width: 1.55rem;
+  height: 1.55rem;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.ham-vertical-line {
+	position: relative;
+	display: flex;
+  
+}
+
+.ham-vertical-line::before {
+	content: '';
+	position: absolute;
+	top: 0rem;
+	bottom: 0rem;
+	left: 0.02rem;
+	width: 1px;
+	background-color: rgb(255, 255, 255);
+}
+
+.ham-crystalball {
+  width: 1.95rem;
+  height: 1.95rem;
+  padding: 0px;
+  margin: 0px;
+  
+  padding-left: 0.5rem;
+}
+
+.link-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: 'Sofia_Pro', sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger-link {
+  font-weight: bold;
+  color: white;
+  border-top: 1px solid #6F6F6F;
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger-link:hover {
+  text-decoration: underline;
+}
+
+.profile-image {
+  margin-right: 5%;
+}
+

@@ -1,0 +1,275 @@
+.headline {
+width: 345px;
+height: 110px;
+top: 100px;
+left: 24px;
+font-family: FONTSPRING DEMO - Capitana Extrabold;
+font-size: 20px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: center;
+padding-left: 60px;
+padding-right: 60px;
+}
+
+.button-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+.select_month_div {
+    width: 345px;
+    height: 120px;
+    top: 329px;
+    left: 24px;
+    border-radius: 8px;
+    border: 4px, 0px, 4px, 0px;
+}
+
+
+
+.select_year_div {
+    width: 345px;
+height: 120px;
+top: 505px;
+left: 24px;
+border: 4px, 0px, 4px, 0px
+
+}
+
+.month_input {
+width: 345px;
+height: 120px;
+margin-bottom:20px;
+border-radius: 8px;
+border: 4px, 0px, 4px, 0px;
+border: 1px solid black;
+}
+
+.year_input {
+    width: 345px;
+    height: 120px;
+    top: 329px;
+    left: 24px;
+    border-radius: 8px;
+    border: 4px, 0px, 4px, 0px;
+    border: 1px solid black;
+    margin-bottom: 60px;
+    }
+
+
+.p_select_year {
+    width: 345 px;
+    height: 16px;
+    
+font-family: Sofia Pro;
+font-size: 16px;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: center;
+margin-left: 24px;
+padding-bottom: 30px;
+}
+
+.p_select_month {
+    width: 345 px;
+    height: 16px;
+    
+font-family: Sofia Pro;
+font-size: 16px;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: center;
+margin-left: 24px;
+padding-bottom: 30px;
+}
+
+
+
+.asset_type_button {
+    width: Hug (142px);
+height: Fixed (40px);
+top: 281px;
+left: 126px;
+padding: 10px;
+border-radius: 80px;
+gap: 10px;
+background: #148CFB;
+color: white;
+margin-bottom: 2px;
+}
+
+.add_btn {
+    width: Hug (142px);
+    height: Fixed (40px);
+    top: 281px;
+    left: 126px;
+    padding: 10px;
+    border-radius: 80px;
+    gap: 10px;
+    background: #148CFB;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.button-and-form-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-and-form-container input {
+    margin-right: 10px;
+}
+.form-container {
+    
+    margin-left: 20px;
+}
+
+.value_div {
+    padding-top:20px;
+
+}
+
+.asset_input_main_div {
+    width: Hug (345px);
+height: Hug (390px);
+
+margin-left: 24px;
+gap: 32px;
+
+}
+
+.asset_p {
+    font-family: FONTSPRING DEMO - Capitana Extrabold;
+font-size: 20px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0px;
+flex-grow: 1;
+text-align: center;
+margin-right: 10px;
+}
+
+.horizontal_line {
+    border-top: 4px solid black;
+    margin-left: 10px;
+    margin-right: 24px;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.asset_button_large {
+    width: 345px;
+height: 56px;
+top: 681px;
+left: 24px;
+padding: 17px, 0px, 16px, 0px;
+border-radius: 100px;
+background: #148CFB;
+color: white;
+font-family: FONTSPRING DEMO - Capitana Extrabold;
+font-size: 20px;
+margin-bottom: 2px;
+margin-top: 20px;
+
+}
+
+.asset-form {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.asset-form-button {
+    
+    width: 300px;
+    height: 50px;
+   border-radius: 100px;
+    background: #148CFB;
+    color: white;
+    font-family: FONTSPRING DEMO - Capitana Extrabold;
+    font-size: 20px;
+    margin-bottom: 2px;
+    margin-top: 20px;
+}
+
+.asset_p_value {
+font-family: FONTSPRING DEMO - Capitana Extrabold;
+font-size: 20px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: right;
+margin-right: 80px;
+
+}
+
+.add-button {
+    max-width: none !important;
+}
+
+
+.asset-form-input {
+    border-radius: 7px;
+}
+
+/* .asset-modal-div {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    transform: 'translate(-50%, -50%)';
+    background: #008000;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+} */
+
+.asset-modal-text {
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+modal-btn {
+   
+    
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.info-tool-tip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-div {
+    position: absolute;
+    background:  #148CFB;
+    width: 364px;
+    height: 340px;
+    border-radius: 32px;
+    color: white;
+    font: 16px Sofia Pro;
+    margin-top: 15px;
+    margin-left: 31px;
+    padding: 10px;
+    white-space: pre-line;
+    
+
+
+}

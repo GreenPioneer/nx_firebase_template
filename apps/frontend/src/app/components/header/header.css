@@ -1,0 +1,124 @@
+.SidebarNav {
+	background: #15171c;
+	width: 250px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: 650ms;
+	z-index: 999;
+	color: black;
+}
+
+.HideSidebarNav {
+	background: #15171c;
+	width: 250px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: -100%;
+	transition: 650ms;
+	z-index: 10;
+}
+
+.SidebarWrap {
+	width: 100%;
+}
+
+.header-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-basis: auto;
+}
+
+.header-sub-container {
+	justify-content: space-around;
+	margin-left: 1.75rem;
+	width: 100%;
+	align-items: center;
+	width: 100%;
+	flex-basis: auto;
+	flex-grow: 1;
+}
+
+.head-trademark-lineList {
+	margin-top: 0.40rem;
+	width: 1.25rem;
+}
+
+.navLink-list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.head-trademark-container {
+	padding-top: 25%;
+	padding-bottom: 15%;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+	gap: 1rem;
+	height: 10rem;
+}
+
+.unordered-list {
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-right: auto;
+	padding: 0;
+}
+
+.li-nav-logo {
+	color: white;
+	font-weight: bold;
+	margin-bottom: 0;
+	padding-right: 0.5rem;
+}
+
+.li-navlink {
+	font-size: x-large;
+	color: white;
+	font-weight: bold;
+	padding-right: 0.5rem;
+}
+
+.li-navlink:hover {
+	text-decoration: underline;
+}
+
+.header-first-time-user-text {
+	font-family: 'Sofia Pro', sans-serif;
+	font-size: 1rem;
+	font-weight: 800;
+	letter-spacing: 0px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-width: 3px;
+	padding: 1rem 2.5rem 1rem 2.5rem;
+	height: 2rem;
+	border-color: white;
+	border-radius: 30px;
+	color: white;
+}
+
+.header-first-time-user-text:hover {
+	text-decoration: underline;
+}
+
+.header-profile-image {
+	height: 2rem;
+	width: 2rem;
+	border-radius: 10rem;
+}

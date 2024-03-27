@@ -111,3 +111,38 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
    2. Building tests are a great way to make sure any edits in your code do not accidentally break something elsewhere. To use run `npx nx e2e SPECIFIC-FOLDER --skip-cache`.
    3. Coding some tests on the frontend require a backend, like the tests provided in `frontend-e2e` folder (tests that require CRUD functionality). This means that you must have your localhost backend running when calling this folder to test the application. NOTE: in the `tests.yml` file there is an example of how to have your backend server running while you use the testing command.
    4. To get CRUD functionality working in Github actions we need to first set up some Github secrets. In your repo go to 'Settings' -> 'Secrets and variables' -> 'Actions' and create a new secret called `FIREBASE_ADMINSDK_KEY` and then set it to the value in your `.env` file. Next we have to allow your Google Project to allow Github access. To do this create another secret and call it `GCP_PRIVATE_KEY` and set it to your Google Cloud Key. NOTE: if you do not have the key saved somewhere, then you can just create a new one, go to the google cloud console and select your project, navigate to 'IAM & Admin' -> 'Service Accounts' -> 'Keys' and create a JSON key.
+
+
+# Getting Started for New Developers:
+
+To begin contributing to the project, follow these steps:
+
+1. Clone the main branch and switch to the "AT" branch:
+   - `git clone https://github.com/tirzah-dev/WOL-Planner.git`
+   - `git checkout AT`
+
+2. Create a new branch from the "AT" branch for your changes. For example:
+   - `git checkout -b setup` 
+
+3. Install project dependencies:
+   - `npm i`
+
+4. Create a `.env` file at the root of the directory:
+   - `touch .env`
+
+5. Reach out to the Project Manager for the necessary content to populate the `.env` file.
+
+Once set up, you can start the frontend and backend servers for testing:
+
+- Start the backend server:
+  - `npx nx serve server`
+  
+- Open another terminal and start the frontend server:
+  - `npx nx serve frontend`
+
+For more information on installing Nx into an existing repository, refer to the [Installing Nx](https://nx.dev/getting-started/installation) guide:
+
+- Initialize Nx in your project:
+  - `npx nx@latest init`
+  
+Please note that instead of `npx nx serve server`, you can use `nx serve server` and `nx serve frontend`.

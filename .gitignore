@@ -4,6 +4,8 @@
 dist
 tmp
 /out-tsc
+.nx/
+.firebase/
 
 # dependencies
 node_modules
@@ -38,4 +40,8 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# api keys
 .env
+
+# service account
+wol-planner-7e216-cf2ab387f459.json

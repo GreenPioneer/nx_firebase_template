@@ -1,8 +1,7 @@
 const colors = require('tailwindcss/colors');
 module.exports = {
-  purge: ['./apps/frontend/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
-  theme: {},
+  content: ['./apps/frontend/**/*.{js,ts,jsx,tsx}'],
+  media: false, // or 'media' or 'class'
   variants: {},
   plugins: [
     require('@tailwindcss/forms'),
@@ -10,6 +9,13 @@ module.exports = {
     require('@tailwindcss/typography'),
   ],
   theme: {
+        screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -89,8 +95,16 @@ module.exports = {
         900: '#3e2723',
       },
       gray: colors.gray,
-      'blue-gray': colors.blueGray,
+      'blue-gray': colors.slate,
     },
+    extend: {
+      colors: {
+        blue1: "#1976D2"
+      },
+      fontFamily: {
+        psm: ["Product Sans Medium"],
+        sp: ["Sofia Pro"]
+      }
+    }
   },
 };
-

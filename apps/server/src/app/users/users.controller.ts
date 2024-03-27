@@ -15,6 +15,10 @@ export class UsersController {
     signInUser(@Body() body: any) {
         return this.usersService.signInUser(body);
     }
+    @Post("/signup")
+    signUpUser(@Body() body: any) {
+        return this.usersService.signUpUser(body);
+    }
 
     @Put()
     updateUser(@Body() body: any) {
